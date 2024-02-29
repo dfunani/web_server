@@ -1,16 +1,11 @@
-workspace = { members = ["src/requests", "src/threads"] }
 [package]
-name = "web_server"
+name = "threads"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-regex = "1.5"
-requests = { path = "src/requests" }
-threads = { path = "src/threads" }
-
 
 [dependencies.uuid]
 version = "1.7.0"
